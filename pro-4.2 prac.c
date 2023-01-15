@@ -1,7 +1,8 @@
-#include<stdio.h>
-int x = 1;
 
- void myfnc(int y)
+#include<stdio.h>
+int y = 1;
+
+ void myfnc(int x)
 {
     y = y * 2;
     x = x + 10;
@@ -10,9 +11,10 @@ int x = 1;
 
 int main()
 {
-    int y = 5;
-    x = 10;
-    myfnc(y);
+    int x = 10;
+    y = 5;
+
+    myfnc(x);
     printf("main, x =%d, y=%d\n", x, y);
     return 0;
 }
