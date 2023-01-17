@@ -7,8 +7,10 @@ void recurse(int count)
 
     }
 
-    recurse(count+1);
+
     printf("count=%d\n", count);
+    recurse(count-1);
+
 }
 int main()
 {
