@@ -8,6 +8,7 @@ void recurse(int count)
     printf("count: %d\n", count);
     recurse(count+1);
     printf("count: %d\n", count);
+    printf("count: %d\n", count);
 }
 int main()
 {
